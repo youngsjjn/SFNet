@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is a PyTorch implementation of [SFNet](https://hszhao.github.io/projects/psanet). This work is based on [semseg](https://github.com/hszhao/semseg/blob/1.0.0/README.md).
+This repository is a PyTorch implementation of [SFNet](https://ieeexplore.ieee.org/document/9453770). This work is based on [semseg](https://github.com/hszhao/semseg/blob/1.0.0/README.md).
 
 <img src="Overall_architecture.png" width="500"/>
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 ### Implementation
 1. Download datasets (i.e. [Cityscapes](https://www.cityscapes-dataset.com), [ADE20K](https://groups.csail.mit.edu/vision/datasets/ADE20K/) and [RUGD](http://rugd.vision/)) and change the root of data path in [config](./config/cityscapes/cityscapes_transform101.yaml).
-Download data list and pre-trained backbone models (ResNet50/101) [here](https://drive.google.com/open?id=15wx9vOM0euyizq-M1uINgN0_wjVRf9J3).
+Download data list and pre-trained backbone models [here](https://drive.google.com/open?id=15wx9vOM0euyizq-M1uINgN0_wjVRf9J3).
 
 2. Train (Evaluation is included at the end of the training)
 ```
