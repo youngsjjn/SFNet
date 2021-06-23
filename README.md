@@ -4,7 +4,7 @@
 
 This repository is a PyTorch implementation of [SFNet](https://hszhao.github.io/projects/psanet). This work is based on [semseg](https://github.com/hszhao/semseg/blob/1.0.0/README.md).
 
-<img src="./figure/TrSeg_Architecture.png" width="900"/>
+<img src="GA.png" width="900"/>
 
 The codebase mainly uses ResNet50/101 and MobileNet-V2 as backbone and can be easily adapted to other basic classification structures. 
 
