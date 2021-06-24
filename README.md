@@ -53,10 +53,8 @@ sh tool/test.sh cityscapes sfnet101
    |  Backbone | Dataset  |     mIoU     |
    | :-------: | :----------: | :----------: |
    | ResNet-101  | Cityscapes (val) |  81.7    |
-   | :-------: | :----------: | :----------: |
    | ResNet-50  | ADE20K |  43.95   |
    | ResNet-101  | ADE20K |  45.18   |
-   | :-------: | :----------: | :----------: |
    | ResNet-50  | RUGD (val/test) |  40.73 / 36.89   |
    
    
